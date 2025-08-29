@@ -1,6 +1,5 @@
 name = "MIPLIB"
 uuid = "93a727b6-5edc-4a43-9139-9257ae55f08d"
-authors = ["Sungho Shin <sushin@mit.edu>"]
 version = "0.1.0"
 
 [deps]
