@@ -1,0 +1,26 @@
+name = "MIPLIB"
+uuid = "93a727b6-5edc-4a43-9139-9257ae55f08d"
+authors = ["Sungho Shin <sushin@mit.edu>"]
+version = "0.1.0"
+
+[deps]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+QPSReader = "10f199a5-22af-520b-b891-7ce84a7b1bd0"
+QuadraticModels = "f468eda6-eac5-11e8-05a5-ff9e497bcd19"
+QuadraticModelsGurobi = "b0275aa7-013b-42ad-9e10-dc5d6db0accb"
+
+[compat]
+Artifacts = "1.11"
+GZip = "0.6"
+NLPModelsIpopt = "0.10"
+QPSReader = "0.2"
+QuadraticModels = "0.9"
+QuadraticModelsGurobi = "0.2.0"
+
+[extras]
+NLPModelsIpopt = "f4238b75-b362-5c4c-b852-0801c9a21d71"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "NLPModelsIpopt"]
